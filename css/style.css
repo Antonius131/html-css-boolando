@@ -21,10 +21,16 @@ ul {
 
 li {
     display: inline;
+    font-size: 14px;
 }
 
 h4 {
     text-transform: uppercase;
+}
+
+h5 {
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 p {
@@ -35,6 +41,10 @@ p {
 a {
     color: #fff;
     text-decoration: none;
+}
+
+i {
+    font-size: 14px;
 }
 
 .container {
@@ -61,7 +71,6 @@ header {
     background-color: #f35a02;
     padding: 21px;
     color: #fff;
-    font-size: 14px;
     box-shadow: 0px 1px 3px 1px rgba(0,0,0,.5);
 }
 
@@ -149,4 +158,29 @@ main {
     color: rgb(101, 101, 101);
     text-decoration: line-through;
     margin-left: 6px;
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #1A1A1A;
+    padding: 21px;
+    color: #fff;
+}
+
+.company-col ul li {
+    font-size: 12px;
+    margin-right: 6px;
+}
+
+.socials-col {
+    text-align: right;
+}
+
+.socials-col span i {
+    font-size: 18px;
+    margin-right: 4px;
 }
