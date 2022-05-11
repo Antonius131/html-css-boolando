@@ -23,6 +23,15 @@ li {
     display: inline;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 12px;
+    color: rgb(101, 101, 101);
+}
+
 a {
     color: #fff;
     text-decoration: none;
@@ -46,6 +55,7 @@ a {
 
 header {
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
     background-color: #f35a02;
@@ -71,12 +81,72 @@ header {
 
 
 
-/* main content */
+/* main content style */
 
 main {
     margin-top:116px
 }
 
 .store-item-col {
+    position: relative;
     width: calc(32%);
+}
+.image-box {
+    position: relative;
+}
+
+.image-hover {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.image-box:hover .image-hover {
+    display: block;
+}
+
+/* heart-box style */
+
+.heart-box {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background-color: #fff;
+    padding: 8px 12px;
+}
+
+/* tags style */
+
+.item-tags {
+    position: absolute;
+    bottom: 30px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.red-tag {
+    padding: 5px 10px;
+    background-color: #F10103;
+}
+.green-tag {
+    padding: 5px 10px;
+    background-color: #248000;
+}
+
+/* info box style */
+
+.info-box {
+    padding: 4px 0px 42px 0px;
+}
+
+.red-price {
+    font-size: 12px;
+    color: #F10103;
+}
+
+.old-price {
+    font-size: 12px;
+    color: rgb(101, 101, 101);
+    text-decoration: line-through;
+    margin-left: 6px;
 }
